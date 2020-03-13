@@ -6,6 +6,6 @@ class ChattyStudent
   end
 
   def raise_hand
-    "Pick me!"
+    1.upto(10) {puts super}
   end
 end
